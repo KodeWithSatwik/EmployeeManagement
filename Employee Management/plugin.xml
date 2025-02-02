@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="ksw.perspective.EmployeeManagementPerspective"
+            id="kws.perspective.EmployeeManagement"
+            name="Employee Management">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="ksw.views.RegionsView"
+            id="kws.views.regions"
+            name="Regions"
+            restorable="true">
+      </view>
+      <view
+            class="ksw.views.CountriesView"
+            id="kws.views.countries"
+            name="Countries"
+            restorable="true">
+      </view>
+      <view
+            class="ksw.views.DepartmentsView"
+            id="kws.views.departments"
+            name="Departments"
+            restorable="true">
+      </view>
+      <view
+            class="ksw.views.ManagementHierarchy"
+            id="kws.views.managementHierarchy"
+            name="ManagementHierarchy"
+            restorable="true">
+      </view>
+      <view
+            class="ksw.views.JobsView"
+            id="kws.views.jobs"
+            name="Jobs"
+            restorable="true">
+      </view>
+      
+   </extension>
+
+</plugin>

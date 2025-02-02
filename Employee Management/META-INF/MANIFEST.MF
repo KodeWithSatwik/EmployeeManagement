@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Employee_Management
+Bundle-SymbolicName: Employee_Management;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: ksw.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: Employee.Management
+Bundle-ActivationPolicy: lazy
