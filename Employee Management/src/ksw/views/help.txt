@@ -1,0 +1,36 @@
+countryList
+
+Map<String, List<String>> regionCountryMap = new HashMap<>();
+		regionCountryMap.put("Europe", Arrays.asList("Italy", "United Kingdom", "France", "Germany", "Switzerland",
+				"Netherlands", "Denmark", "Belgium"));
+		regionCountryMap.put("Americas",
+				Arrays.asList("United States of America", "Canada", "Brazil", "Mexico", "Argentina"));
+		regionCountryMap.put("Asia", Arrays.asList("Japan", "China", "India", "Australia", "Singapore", "Malaysia"));
+		regionCountryMap.put("Middle East and Africa", Arrays.asList("Zimbabwe", "Zambia", "Egypt", "Kuwait", "Israel", "Nigeria"));
+		countryList.setInput(regionCountryMap.get(country));
+		
+		
+regions: 
+regionList  = new ListViewer(parent, SWT.SINGLE );
+		
+		regionList.add("Europe");
+		regionList.add("Americas");
+		regionList.add("Asia");
+		regionList.add("Middle East and Africa");
+		
+	
+	
+departments
+
+departmentList = new ListViewer(parent, SWT.SINGLE);
+		departmentList.add("Resources");
+		departmentList.add("Shipping");
+		departmentList.add("IT");
+		departmentList.add("Public Relations");
+		departmentList.add("Sales");
+		departmentList.add("Executive");
+		departmentList.add("Finance");
+		departmentList.add("Accounting");
+		departmentList.add("Treasury");
+		departmentList.add("Corporate Tax");
+		departmentList.add("Control and Credit");
