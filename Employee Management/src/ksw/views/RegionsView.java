@@ -18,7 +18,7 @@ public class RegionsView extends ViewPart {
 		// TODO Auto-generated method stub
 		regionList = new ListViewer(parent, SWT.SINGLE);
 		regionList.add("Europe");
-		regionList.add("Americas");
+		regionList.add("America");
 		regionList.add("Asia");
 		regionList.add("Middle East and Africa");
 

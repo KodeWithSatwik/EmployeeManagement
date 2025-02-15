@@ -31,7 +31,7 @@ public class CountriesView extends ViewPart {
 		Map<String, List<String>> regionCountryMap = new HashMap<>();
 		regionCountryMap.put("Europe", Arrays.asList("Italy", "United Kingdom", "France", "Germany", "Switzerland",
 				"Netherlands", "Denmark", "Belgium"));
-		regionCountryMap.put("Americas",
+		regionCountryMap.put("America",
 				Arrays.asList("United States of America", "Canada", "Brazil", "Mexico", "Argentina"));
 		regionCountryMap.put("Asia", Arrays.asList("Japan", "China", "India", "Australia", "Singapore", "Malaysia"));
 		regionCountryMap.put("Middle East and Africa", Arrays.asList("Zimbabwe", "Zambia", "Egypt", "Kuwait", "Israel", "Nigeria"));
